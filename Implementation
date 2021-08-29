@@ -25,7 +25,9 @@ and fundamentally are the same. In this implementation we have tried ro follw th
 We edited other mentioned files to connect these files together.
 
 4-cd Linux-x86_64-g++
-  make
+  rm namd2
+  make clean
+  make (or gmake -j4)
  (before "make", please open the "ComputeMField.C" file and change the provider name to yours, then save the file and comment "make")
  
 5-finished 
